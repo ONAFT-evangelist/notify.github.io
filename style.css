@@ -110,30 +110,24 @@ header h1 {
 }
 
 .icons {
-    display: inline-block;
+    display: inline-flex;
+    margin: auto;
 }
 
 .icons_back {
-    width: 55px;
+    display: inline-flex;
+    width: 56px;
     height: 55px;
     border-radius: 50%;
     opacity: 0.6;
-    background-image: url('img/header/container_unselected.png');
+    background-color: black;
 } .icons_back:hover {
     opacity: 1;
-    background-image: url('img/header/container_selected.png');
+    background-color: #39CA75;
 }
 
-.android_position {
-    margin: 14px 15px 14px 16px;
-}
-
-.apple_position {
-    margin: 12px 17px 15px 17px;
-}
-
-.window_position {
-    margin: 14px 1px 14px 12px;
+.ml{
+   margin-left: 12px; 
 }
 
 .hand {
@@ -145,20 +139,6 @@ header h1 {
     width: 439px;
     height: 507px;
     margin-top: 95px;
-}
-
-.light {
-    position: relative;
-    width: 70px;
-    height: 207px;
-    background-color: #fff69f;
-    opacity: 0.46;
-}
-
-.screen {
-    position:relative;
-    width: 165px;
-    height: 247px;
 }
 
 .gems {
