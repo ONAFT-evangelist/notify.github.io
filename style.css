@@ -117,8 +117,10 @@ header h1 {
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    opacity: 0.6;
     background-image: url('img/header/container_unselected.png');
 } .icons_back:hover {
+    opacity: 1;
     background-image: url('img/header/container_selected.png');
 }
 
@@ -160,7 +162,9 @@ header h1 {
 }
 
 .gems {
-    
+    display:inline-flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list {
@@ -176,41 +180,42 @@ header h1 {
 }
 
 .gem_container {
-    display: inline-block;
+    display: inline-flex;
     width: 100px;
     height: 100px;
+    border-radius: 50px;
     background-position: center;
-    background-image: url(img/gems/container.png);
+    background-color: #39CA75;
 }
 
 .icon_item {
+    display: inline-flex;
     width: 53px;
     height: 53px;
     opacity: 0.6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
 }
 
 .gem_name {
-    width: 219px;
     height: 17px;
     color: #222222;
     font-family: "Raleway-SemiBold";
     font-size: 22px;
     font-weight: 400;
     line-height: 18px;
-    text-align:inherit;
+    text-align:center;
 }
 
 .gem_descryptor {
     height: 42px;
+    margin-left: 71px;
+    margin-right: 39px;
     color: #848484;
     font-family: "HelveticaNeue";
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    border-radius: 50%;
+    text-align:center;
 }
 
 .notifier {
@@ -293,6 +298,16 @@ header h1 {
 
 .contacts {
     text-align: center;
+}
+
+.contacts cite {
+    width: 88px;
+    height: 14px;
+    color: #2e2e2e;
+    font-family: "Raleway-SemiBold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
 }
 
 .quote {
@@ -408,7 +423,7 @@ header h1 {
 }
 
 .network_back {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 10px;
     margin-top: 25px;
     width: 34px;
@@ -417,6 +432,10 @@ header h1 {
     background-image: url(img/socials/container.png);
 } .network_back:hover {
     background-image: url(img/socials/container_selected.png);
+}
+
+.position {
+    margin: auto;
 }
 
 .footer {
